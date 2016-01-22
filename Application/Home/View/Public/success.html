@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+    <head>
+        <title>页面提示</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv='Refresh' content='3;URL={$jumpUrl}'>
+        <link rel="stylesheet" type="text/css" href ="__PUBLIC__/css/modasuc.css" />
+    </head>
+    <body>
+        <!--  <div id="wrapper">
+            <table class="message">
+                <thead>
+                <tr>
+                    <td>信息提示</td>
+                </tr>
+                </thead>
+                <switch name="status" >
+                <case value="1">
+                    <tr>
+                        <td class="success">{$message}</td>
+                    </tr>
+                </case>
+                <default/>
+                    <tr>
+                        <td class="error">{$message}</td>
+                    </tr>
+                </switch>
+                <present name="closewin">
+                    <tr>
+                        <td>系统将在 <b style="color:blue;">3</b> 秒后自动关闭，如果不想等待,直接 <a href="{$jumpUrl}">点击这里</a> 关闭</td>
+                    </tr>
+                    <else/>
+                    <tr>
+                        <td>系统将在 <b style="color:blue;">3</b> 秒后自动跳转,如果不想等待,直接 <a href="{$jumpUrl}">点击这里</a> 跳转</td>
+                    </tr>
+                </present>
+            </table>
+        </div>-->
+        
+    <div class="modal" id="login-modal">
+	<a class="close" data-dismiss="modal">×</a>
+	<h1>信息提示</h1>
+	<ul class="login-bind-tp">
+	 <switch name="status" >
+	 	<case value="1">
+			<li class="qweibo"><em>&nbsp;</em>{$message} </li>
+		</case>
+       <default/>
+       		<li class="qweibo"><em>&nbsp;</em>{$message} </li>
+       </switch>
+       
+       <present name="closewin">
+       				<li class="qweibo">系统将在 <b style="color:blue;">3</b> 秒后自动关闭，如果不想等待,直接 <a href="{$jumpUrl}">点击这里 </li>
+                    <else/>
+                    <li class="qweibo">系统将在 <b style="color:blue;">3</b> 秒后自动跳转,如果不想等待,直接 <a href="{$jumpUrl}">点击这里</a>跳转 </li>
+      </present>      
+	</ul>
+</div>        
+
+</body>
+</html>

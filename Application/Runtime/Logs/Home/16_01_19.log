@@ -1,0 +1,966 @@
+[ 2016-01-19T07:03:15+08:00 ] 1.189.203.170 /timematch/Home/Index/participate/activity_id/39/openid/o0JATsynccYy7AJW1Yv9bSLpIXqU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATsynccYy7AJW1Yv9bSLpIXqU'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T07:03:32+08:00 ] 1.189.203.170 /timematch/Home/Index/participate/activity_id/39/openid/o0JATsynccYy7AJW1Yv9bSLpIXqU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATsynccYy7AJW1Yv9bSLpIXqU'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T07:03:40+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=e7cf34e05e455f58bec50dff6aaf675e92010c6c&timestamp=1453158224&nonce=1655159250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATsynccYy7AJW1Yv9bSLpIXqU' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T07:03:42+08:00 ] 1.189.203.170 /timematch/Home/Index/participate/activity_id/39/openid/o0JATsynccYy7AJW1Yv9bSLpIXqU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATsynccYy7AJW1Yv9bSLpIXqU'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T07:03:49+08:00 ] 1.189.203.170 /timematch/Home/Index/add_record/num/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATsynccYy7AJW1Yv9bSLpIXqU' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tim_record` SET `RecordActivityId`='39',`RecordUserName`='小帅熊',`RecordUserId`='o0JATsynccYy7AJW1Yv9bSLpIXqU',`RecordDate`='2016-01-19',`RecordDateStart`='2',`RecordDateEnd`='9' WHERE ( RecordId = 56 ) [ RunTime:0.0020s ]
+SQL: UPDATE `tim_record` SET `RecordActivityId`='39',`RecordUserName`='小帅熊',`RecordUserId`='o0JATsynccYy7AJW1Yv9bSLpIXqU',`RecordDate`='2016-01-20',`RecordDateStart`='2',`RecordDateEnd`='11' WHERE ( RecordId = 57 ) [ RunTime:0.0127s ]
+
+[ 2016-01-19T07:03:49+08:00 ] 1.189.203.170 /timematch/home/index/show_zhu/id/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordDate` FROM `tim_record` WHERE ( RecordActivityId = 39 ) ORDER BY RecordDate asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tim_record` WHERE ( RecordActivityId = 39 and RecordDate = "2016-01-19 " )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 16 C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 227 行.
+SQL: SELECT * FROM `tim_record` WHERE ( RecordActivityId = 39 and RecordDate = "2016-01-20 " )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 16 C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 227 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T07:04:10+08:00 ] 1.189.203.170 /timematch/Home/Index/participate/activity_id/39/openid/o0JATsynccYy7AJW1Yv9bSLpIXqU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATsynccYy7AJW1Yv9bSLpIXqU'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T09:21:17+08:00 ] 140.207.54.80 /timematch/Home/index/index?signature=08044849015379931849c68afc6293a8c23eccfa&timestamp=1453166449&nonce=1822502918
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T09:21:26+08:00 ] 140.207.54.79 /timematch/Home/index/index?signature=64bf7e0b20b4d77a4cb5b784704027646ffb8c8c&timestamp=1453166458&nonce=238686058
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T09:21:31+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=236573c0d1f461bd196c81e70096be35403a1a69&timestamp=1453166463&nonce=1183180373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T09:21:34+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=c7a9c95a83dd23f84668e791e5cc1fb275ef24af&timestamp=1453166465&nonce=2032938412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityLeaderId = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs' ) ORDER BY ActivityId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T10:06:00+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=00a8719d3ccc1a7ec8778e3ac0e6f9aea4aad12e&timestamp=1453169145&nonce=67249625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityIdMd5 = '三人行' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T10:40:42+08:00 ] 61.167.60.252 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:05+08:00 ] 220.181.132.218 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:20+08:00 ] 220.181.132.218 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:21+08:00 ] 101.199.112.55 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:22+08:00 ] 182.140.230.17 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:25+08:00 ] 171.8.167.65 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:25+08:00 ] 27.221.19.21 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:28+08:00 ] 171.8.167.63 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:28+08:00 ] 171.8.167.65 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:34+08:00 ] 101.199.112.50 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:35+08:00 ] 182.140.230.22 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:38+08:00 ] 171.8.167.70 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:38+08:00 ] 27.221.19.21 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:41+08:00 ] 171.8.167.63 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T10:42:41+08:00 ] 27.221.19.17 /timematch/Home/index/face_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 参数错误或者未定义:PicUrl
+
+[ 2016-01-19T11:15:08+08:00 ] 218.9.123.113 /timematch/home/index/show_erweima/openid/39.html?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T11:15:16+08:00 ] 218.9.123.113 /timematch/Home/index/participate_before/?code=021ecf568c67585e38559f0bc4d8436Q&state=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_user` WHERE ( UserOpenid = 'o0JATs042CGueJrWcKyk6PRcgf5Y' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tim_user` SET `UserOpenid`='o0JATs042CGueJrWcKyk6PRcgf5Y',`UserNickName`='中元',`UserCity`='哈尔滨',`UserSex`='1',`UserProvince`='黑龙江',`UserCountry`='中国',`UserHeadImgUrl`='http://wx.qlogo.cn/mmopen/0T8yO33zeehMz60wu4ZDZdY9eEmqF39Rsb9LxMy1LVibVXLavIfMCXwb3n1c6RoMIudv1OgvS9L3u2kwAJeVWicg/0' WHERE ( UserOpenid = 'o0JATs042CGueJrWcKyk6PRcgf5Y' ) [ RunTime:0.0195s ]
+
+[ 2016-01-19T11:15:16+08:00 ] 218.9.123.113 /timematch/home/index/participate/activity_id/39/openid/o0jats042cguejrwckyk6prcgf5y.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0jats042cguejrwckyk6prcgf5y'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T11:17:52+08:00 ] 218.9.123.113 /timematch/home/index/add_record/num/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATs042CGueJrWcKyk6PRcgf5Y' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tim_record` SET `RecordActivityId`='39',`RecordUserName`='中元',`RecordUserId`='o0JATs042CGueJrWcKyk6PRcgf5Y',`RecordDate`='2016-01-19',`RecordDateStart`='3',`RecordDateEnd`='8' WHERE ( RecordId = 58 ) [ RunTime:0.0195s ]
+SQL: UPDATE `tim_record` SET `RecordActivityId`='39',`RecordUserName`='中元',`RecordUserId`='o0JATs042CGueJrWcKyk6PRcgf5Y',`RecordDate`='2016-01-20',`RecordDateStart`='0',`RecordDateEnd`='0' WHERE ( RecordId = 59 ) [ RunTime:0.0166s ]
+
+[ 2016-01-19T11:17:52+08:00 ] 218.9.123.113 /timematch/home/index/show_zhu/id/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0039s ]
+SQL: SELECT DISTINCT  `RecordDate` FROM `tim_record` WHERE ( RecordActivityId = 39 ) ORDER BY RecordDate asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tim_record` WHERE ( RecordActivityId = 39 and RecordDate = "2016-01-19 " )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 16 C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 227 行.
+SQL: SELECT * FROM `tim_record` WHERE ( RecordActivityId = 39 and RecordDate = "2016-01-20 " )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 16 C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 227 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T12:54:05+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=4bee05cc242b030e050fd82c4be266d884f131b9&timestamp=1453179224&nonce=558738326
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityIdMd5 = '啊啊啊啊' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T12:54:38+08:00 ] 140.207.54.77 /timematch/Home/index/index?signature=8d643dee2c8012e20767952d169eb0eb3d23b4a8&timestamp=1453179258&nonce=249409959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T12:57:16+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=5862f8b5eb794c9cac021eb1658408ff1a470e7b&timestamp=1453179416&nonce=1336839039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T12:57:37+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=e5206ac4090ebdd95e0b92293f455d3e51ce36b8&timestamp=1453179438&nonce=133055578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-19T12:57:41+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T12:59:04+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=1427abd48880b89d8f3064ebddfdd814a880bdcf&timestamp=1453179526&nonce=1237954390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-19T12:59:26+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=bd34640b7eb6d6faab5c0949ac4ff1a9792b09fe&timestamp=1453179547&nonce=1340411233
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:00:28+08:00 ] 113.5.2.11 /timematch/Home/Index/participate/activity_id/36/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '36' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '36' AND `RecordUserId` = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:12:51+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=ef6136b578622497d81c971b65490186cd8f082a&timestamp=1453180296&nonce=2052631392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-19T13:12:54+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T13:14:27+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=ce4cd01e070d2941d6e1ba3016aa3c472f96d500&timestamp=1453180392&nonce=310785187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-19T13:14:36+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:21:33+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:22:44+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:23:53+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:23:58+08:00 ] 140.207.54.77 /timematch/Home/index/index?signature=75e60db211723a5bd7671481c58173c9e75e9c61&timestamp=1453180966&nonce=18620905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:24:00+08:00 ] 113.5.2.11 /timematch/Home/Index/participate/activity_id/36/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '36' AND `RecordUserId` = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:24:01+08:00 ] 113.5.2.11 /timematch/Home/Index/participate/activity_id/39/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0JATs0EAfwtFGwhbzXkrbQdSpgs'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:26:32+08:00 ] 122.159.46.107 /timematch/home/index/show_erweima/openid/39.html?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-01-19T13:26:42+08:00 ] 122.159.46.107 /timematch/Home/index/participate_before/?code=031353b921bc3512933dbedc878660bG&state=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tim_user` WHERE ( UserOpenid = 'o0JATs042CGueJrWcKyk6PRcgf5Y' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tim_user` SET `UserOpenid`='o0JATs042CGueJrWcKyk6PRcgf5Y',`UserNickName`='中元',`UserCity`='哈尔滨',`UserSex`='1',`UserProvince`='黑龙江',`UserCountry`='中国',`UserHeadImgUrl`='http://wx.qlogo.cn/mmopen/0T8yO33zeehMz60wu4ZDZdY9eEmqF39Rsb9LxMy1LVibVXLavIfMCXwb3n1c6RoMIudv1OgvS9L3u2kwAJeVWicg/0' WHERE ( UserOpenid = 'o0JATs042CGueJrWcKyk6PRcgf5Y' ) [ RunTime:0.0195s ]
+
+[ 2016-01-19T13:26:42+08:00 ] 122.159.46.107 /timematch/home/index/participate/activity_id/39/openid/o0jats042cguejrwckyk6prcgf5y.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tim_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_activity` WHERE ( ActivityId = '39' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `tim_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tim_record` WHERE `RecordActivityId` = '39' AND `RecordUserId` = 'o0jats042cguejrwckyk6prcgf5y'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: UserOpenid C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 122 行.
+NOTIC: [8] Undefined index: UserNickName C:\xampp\htdocs\timematch\Application\Runtime\Cache\Home\c10f8e63d3e28f3a081a76c1cccd0d2f.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T13:27:06+08:00 ] 140.207.54.75 /timematch/Home/index/index?signature=64091a67017247ee33982926635aafde819d65de&timestamp=1453181155&nonce=948824678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:27:08+08:00 ] 122.159.46.107 /timematch/Home/index/add_activity/openid/o0JATs042CGueJrWcKyk6PRcgf5Y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:27:33+08:00 ] 122.159.46.107 /timematch/Home/index/add_activity/openid/o0JATs042CGueJrWcKyk6PRcgf5Y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:28:13+08:00 ] 140.207.54.75 /timematch/Home/index/index?signature=263594b2c35e36508bad9422acb4b2858bea6c66&timestamp=1453181222&nonce=1675930575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tim_record` [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `RecordActivityId`,`ActivityTitle`,`ActivityLeaderName`,`ActivityPlace`,`ActivityStartDate`,`ActivityEndDate`,`ActivityId` FROM `tim_record` INNER JOIN tim_activity on tim_record.RecordActivityId = tim_activity.ActivityId  WHERE ( RecordUserId = 'o0JATs042CGueJrWcKyk6PRcgf5Y' ) ORDER BY RecordId desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T13:28:32+08:00 ] 140.207.54.74 /timematch/Home/index/index?signature=e2b1f03aca7fd23d77a40a4514bdbc89843428d1&timestamp=1453181242&nonce=304984940
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-19T13:28:34+08:00 ] 122.159.46.107 /timematch/Home/index/add_activity/openid/o0JATs042CGueJrWcKyk6PRcgf5Y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-01-19T13:28:35+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=eff55fa39226f7320e42795c5e65ba800a2e2a55&timestamp=1453181245&nonce=1050955414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: echostr C:\xampp\htdocs\timematch\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-19T13:28:37+08:00 ] 113.5.2.11 /timematch/Home/index/add_activity/openid/o0JATs0EAfwtFGwhbzXkrbQdSpgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

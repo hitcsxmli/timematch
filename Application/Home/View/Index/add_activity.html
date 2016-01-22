@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>时间匹配</title>
+<link href="__CSS__/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="__CSS__/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="__CSS__/prism.css">
+<link rel="stylesheet" href="__CSS__/jquery.range.css">
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/bootstrap.mim.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="__JS__/jquery-1.11.1.min.js"></script>
+<script src="__JS__/bootstrap.js"></script>
+<script src="__JS__/responsiveslides.min.js"></script>
+<script src="__JS__/prism.js"></script>
+<script src="__JS__/jquery.range.js"></script>
+<!-- 日期选择的控件 -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-hu.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-de.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-es.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-fr.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-it.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-no.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-pt-BR.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-zh.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-nl.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-tr.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.core-2.6.2-ja.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.core-2.6.2.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/css_date/mobiscroll.animation-2.6.2.css" rel="stylesheet" type="text/css" />
+<script src="__JS__/js_date/mobiscroll.datetime-2.6.2.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.list-2.6.2.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.list-2.6.2.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.select-2.6.2.js" type="text/javascript"></script>
+<script src="__JS__/js_date/mobiscroll.android-2.6.2.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.android-2.6.2.css" rel="stylesheet" type="text/css" />
+<script src="__JS__/js_date/mobiscroll.android-ics-2.6.2.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.android-ics-2.6.2.css" rel="stylesheet" type="text/css" />
+<script src="__JS__/js_date/mobiscroll.ios-2.6.2.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.ios-2.6.2.css" rel="stylesheet" type="text/css" />
+<script src="__JS__/js_date/mobiscroll.jqm-2.6.2.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.jqm-2.6.2.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/css_date/mobiscroll.sense-ui-2.6.2.css" rel="stylesheet" type="text/css" />
+<script src="__JS__/js_date/mobiscroll.wp-2.6.2.js" type="text/javascript"></script>
+<link href="__CSS__/css_date/mobiscroll.wp-2.6.2.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	$(function () {
+	
+		var curr = new Date().getFullYear();
+		var opt = {
+
+		};
+		opt.date = {preset : 'date' , minDate: new Date(2015,1,1), maxDate: new Date(2020,12,31)};
+		opt.datetime = { preset : 'datetime', minDate: new Date(2015,3,10,7,30), maxDate: new Date(2020,12,30,3,30), stepMinute: 5  };
+		opt.time = {preset : 'time'};
+		opt.tree_list = {preset : 'list', labels: ['Region', 'Country', 'City']};
+		opt.image_text = {preset : 'list', labels: ['Cars']};
+		opt.select = {preset : 'select'};
+		
+<!--Script-->
+		$('select.changes').bind('change', function() {
+			var demo = 'default';
+			$(".demos").hide();
+			$("#demo_" + demo).show();
+			$('#test_'+demo).val('').scroller('destroy').scroller($.extend(opt['date'], { theme: 'default', mode: 'scroller', display: 'modal', lang: 'zh' }));
+			$(".demos_end").hide();
+			$("#demo_default_end").show();
+			$("#test_default_end").val('').scroller('destroy').scroller($.extend(opt['date'], { theme: 'default', mode: 'scroller', display: 'modal', lang: 'zh' }));
+			
+		});
+		$('#demo').trigger('change');
+		//$('#demo_end').trigger('change');
+	});
+	
+	
+</script>
+	
+<!-- 日期选择控件结束-->
+<script>
+	function show_table(){
+		if(document.getElementById('activity_info').style.display=="none"){
+		document.getElementById('activity_info').style.display="block";
+		}
+		else{
+			document.getElementById('activity_info').style.display="none";
+			}
+	
+}
+	function get_url2(id){
+		//var a="hello world"+id; 
+		//window.clipboardData.setData('Text','$a'); 
+		//copy_code(a);
+		var url='http://221.207.242.123/timeMatching/index/participate/activity_id/'+id;
+		var label=document.getElementById("url"); 
+		label.innerText=url; 
+		$("#url").html(url); 
+	}
+	
+</script>
+</head>
+
+<body>
+
+<!--header-->
+		<!--about-->
+		<div class="content">
+			<div class="about-section">
+				<div class="container">
+					<h2>时间匹配</h2>
+					<!--<img src="__IMG__/slider.jpg" class="img-responsive" alt="/">
+					<h5>巴拉巴拉广告语</h5>-->
+					<!--<p>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p>-->
+					<!--<button class="btn btn-success" onclick="show_table()">发起新活动</button>-->
+					<div style="display:none">
+						<label for="demo">Demo</label>
+						<select name="demo" id="demo" class="changes">
+							<option value="date" selected>Date</option>
+						</select>
+					</div>
+					<div id="activity_info" style="display:block; " >
+					<form role="form" action="./add_activity" method="post">
+						<div class="form-group">
+							<input type="text" name="flag_add" value="add" style="display:none">
+							<input type="text" name="Openid" value="{$OpenId}" style="display:none">
+							<table class="table  ">
+								<tr>
+									<td width="33%"><B>活动名称:</B></td><td><input type="text" name="activity_name" class="form-control"></td>
+								</tr>
+								<tr>
+									<td><B>活动地点:</B></td><td><input type="text" name="activity_place" class="form-control"></td>
+								</tr>
+								<tr>
+									<td><B>发起人:</B></td><td><input type="text" name="activity_leader" class="form-control"></td>
+								</tr>
+								<tr>
+									<td><B>开始日期:</B></td><td><div id="demo_default" class="demos"><input type="text"  class="form-control"   name="test_default" id="test_default" /></div></td>
+								</tr>
+								<tr>
+									<td><B>结束日期:</B></td><td><div id="demo_default_end" class="demos_end"><input type="text" class="form-control"  name="test_default_end" id="test_default_end"/></div></td>
+								</tr>
+								<tr>
+									<td><B>备注:</B></td><td><input type="text" name="activity_remark" class="form-control"></td>
+								</tr>
+								<tr>
+									<td colspan="2"><button class="btn btn-warning" onclick="this.form.submit()">提交</button></td>
+								</tr>
+							</table>
+						</div>
+					</form>
+					</div>
+					<div>
+						<notempty name="list">
+							<form role="form" action="./index/update_activity" method="post">
+							
+							<div class="form-group">
+								<input type="text" name="flag_update" value="update" style="display:none">
+								<input type="text" name="activity_id" value="{$list.ActivityId}" style="display:none">
+								<table class="table ">
+									<tr>
+										<td width="33%"><B>活动名称:</B></td><td ><input type="text" name="activity_name_update" class="form-control" value="{$list['ActivityTitle']}"></td>
+									</tr>
+									<tr>
+										<td><B>活动地点:</B></td><td ><input type="text" name="activity_place_update" class="form-control" value="{$list['ActivityPlace']}"></td>
+									</tr>
+									<tr>
+										<td><B>发起人:</B></td><td><input type="text" name="activity_leader_update" class="form-control" value="{$list['ActivityLeaderName']}"></td>
+									</tr>
+									<tr>
+										<td><B>开始日期:</B></td><td><input type="text" value="{$list['ActivityStartDate']}" class="form-control" disabled  /></td>
+									</tr>
+									<tr>
+										<td><B>结束日期:</B></td><td><input type="text" class="form-control" value="{$list['ActivityEndDate']}" disabled /></td>
+									</tr>
+									<tr>
+										<td><B>备注：</B></td><td><input type="text" name="activity_remark_update" class="form-control" value="{$list['ActivityRemark']}"></td>
+									</tr>
+									<tr>
+										<td colspan="2"><button class="btn btn-warning" onclick="this.form.submit()">提交修改</button></td>
+									</tr>
+									
+									<!--<tr>
+										<td colspan="2"><button class="btn btn-warning" onclick="get_url2({$list['ActivityId']})">复制活动链接</button></td>
+									</tr>-->
+								</table>
+							</form>
+						
+								
+						</div>
+						<button class="btn btn-warning" name="copy" onclick="get_url2({$list['ActivityId']})">生成活动链接</button>
+						<div>
+							<label name="url" id="url"></label>
+						</div>
+						</notempty>
+					</div>
+
+				</div>
+			</div>
+		</div>
+</body>
+</html>

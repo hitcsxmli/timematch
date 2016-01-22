@@ -1,0 +1,27 @@
+[ 2016-01-22T08:54:20+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=c5002a29b4848901f2b2daf9c2a40a895614ae85&timestamp=1453424134&nonce=356800934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-01-22T08:54:23+08:00 ] 140.207.54.78 /timematch/Home/index/index?signature=1255a69530b209d327592333d45752031b682477&timestamp=1453424137&nonce=683742788
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-01-22T14:04:24+08:00 ] 140.207.54.79 /timematch/Home/index/index?signature=c6b7e40be212271b6cf050f2c47506d9e175b5c9&timestamp=1453442739&nonce=942721962
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
